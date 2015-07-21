@@ -1,0 +1,9 @@
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\bin\Debug\NotifyExample.exe
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\bin\Debug\NotifyExample.pdb
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\bin\Debug\Notify.dll
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\bin\Debug\Notify.pdb
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\obj\Debug\NotifyExample.csprojResolveAssemblyReference.cache
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\obj\Debug\NotifyExample.Properties.Resources.resources
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\obj\Debug\NotifyExample.csproj.GenerateResource.Cache
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\obj\Debug\NotifyExample.exe
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\NotifyExample\NotifyExample\obj\Debug\NotifyExample.pdb

@@ -1,0 +1,8 @@
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\bin\Debug\Notify.dll
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\bin\Debug\Notify.pdb
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.csprojResolveAssemblyReference.cache
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.FormNotification.resources
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.csproj.GenerateResource.Cache
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.dll
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.pdb
+c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.Properties.Resources.resources

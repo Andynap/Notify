@@ -23,20 +23,20 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.labelName = new System.Windows.Forms.Label();
+            this.labelTitle = new System.Windows.Forms.Label();
             this.labelText = new System.Windows.Forms.Label();
             this.boxExit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.boxExit)).BeginInit();
             this.SuspendLayout();
             // 
-            // labelName
+            // labelTitle
             // 
-            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelName.Location = new System.Drawing.Point(12, 9);
-            this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(236, 25);
-            this.labelName.TabIndex = 0;
-            this.labelName.Text = "name";
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelTitle.Location = new System.Drawing.Point(12, 9);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(236, 25);
+            this.labelTitle.TabIndex = 0;
+            this.labelTitle.Text = "title";
             // 
             // labelText
             // 
@@ -59,7 +59,7 @@
             this.boxExit.MouseEnter += new System.EventHandler(this.boxExit_MouseEnter);
             this.boxExit.MouseLeave += new System.EventHandler(this.boxExit_MouseLeave);
             // 
-            // FormNotification
+            // FormNotificationText
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,10 +68,10 @@
             this.ControlBox = false;
             this.Controls.Add(this.boxExit);
             this.Controls.Add(this.labelText);
-            this.Controls.Add(this.labelName);
+            this.Controls.Add(this.labelTitle);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormNotification";
+            this.Name = "FormNotificationText";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.FormNotification_Load);
@@ -83,7 +83,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelText;
         private System.Windows.Forms.PictureBox boxExit;
     }

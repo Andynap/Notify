@@ -29,6 +29,9 @@ namespace NotifyExample {
             "Generating next funny line",
             "Dividing eternity by zero",
             "Searching for the Any key"
+            "Feeding Vüjta"
+            "Getting rid of Zdenda"
+            "Blaming Višinka"
         };
 
         private static string getRandomPhrase() {

@@ -11,25 +11,17 @@ namespace NotifyExample {
 
         [STAThread]
         static void Main() {
-            FormNotification notify = new Notify.FormNotification(
+            FormNotificationText notify = new FormNotificationText(
                 Environment.MachineName,
                 "Kliknutím zahajte výbuch tohoto zařízení."
             );
 
             notify.onClick += (sender, args) => {
-                shutdownMachine();
-                notify.Close();
+                notify.closeWithAnimation();
             };
 
             Application.EnableVisualStyles();
             Application.Run(notify);
-        }
-
-        private static void shutdownMachine() {
-            var psi = new ProcessStartInfo("shutdown","/s /t 0");
-            psi.CreateNoWindow = true;
-            psi.UseShellExecute = false;
-            Process.Start(psi);
         }
 
     }

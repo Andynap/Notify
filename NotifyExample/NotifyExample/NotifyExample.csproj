@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Notify">
+    <Reference Include="Notify, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Notify\Notify\bin\Debug\Notify.dll</HintPath>
     </Reference>
     <Reference Include="System" />

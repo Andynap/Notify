@@ -1,5 +1,5 @@
 ﻿namespace Notify {
-    partial class FormNotification {
+    partial class FormNotificationText {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -72,6 +72,8 @@
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormNotification";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.FormNotification_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormNotification_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.boxExit)).EndInit();

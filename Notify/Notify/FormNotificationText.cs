@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Notify {
 
-    public partial class FormNotification : Form {
+    public partial class FormNotificationText : Form {
 
         public event EventHandler onClick = delegate { };
 
-        public FormNotification(string name, string text) {
+        public FormNotificationText(string name, string text) {
             InitializeComponent();
             setLabelName(name);
             setLabelText(text);
@@ -37,7 +37,7 @@ namespace Notify {
                 onClick(this, new EventArgs());
             };
 
-            ElementAnimator.doShowAnimation(this);
+            ElementAnimator.animateShow(this);
         }
 
         public void setLabelName(string name) {
@@ -48,7 +48,19 @@ namespace Notify {
             this.labelText.Text = text;
         }
 
+        public void closeWithAnimation() {
+            ElementAnimator.animateHide(this);
+            ElementAnimator.onAnimationComplete += ElementAnimator_onAnimationComplete;
+        }
+
         private void boxExit_Click(object sender, EventArgs e) {
+            boxExit.Enabled = false;
+            closeWithAnimation();
+        }
+
+        private void ElementAnimator_onAnimationComplete(object sender, EventArgs e) {
+            if(sender != this) return;
+            ElementAnimator.onAnimationComplete -= ElementAnimator_onAnimationComplete;
             this.Close();
         }
 

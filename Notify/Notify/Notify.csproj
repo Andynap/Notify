@@ -42,11 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ElementAnimator.cs" />
-    <Compile Include="FormNotification.cs">
+    <Compile Include="FormNoticifationProgressBar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormNotification.Designer.cs">
-      <DependentUpon>FormNotification.cs</DependentUpon>
+    <Compile Include="FormNoticifationProgressBar.Designer.cs">
+      <DependentUpon>FormNoticifationProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNotificationText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotificationText.Designer.cs">
+      <DependentUpon>FormNotificationText.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -56,8 +62,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormNotification.resx">
-      <DependentUpon>FormNotification.cs</DependentUpon>
+    <EmbeddedResource Include="FormNoticifationProgressBar.resx">
+      <DependentUpon>FormNoticifationProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNotificationText.resx">
+      <DependentUpon>FormNotificationText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

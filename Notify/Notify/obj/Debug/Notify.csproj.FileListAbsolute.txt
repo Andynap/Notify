@@ -6,3 +6,12 @@ c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\o
 c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.dll
 c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.pdb
 c:\users\filipsi\Desktop\Dropbox\Projekty\Visual Studio Projects\Notify\Notify\obj\Debug\Notify.Properties.Resources.resources
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\bin\Debug\Notify.dll
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\bin\Debug\Notify.pdb
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.csprojResolveAssemblyReference.cache
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.Properties.Resources.resources
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.csproj.GenerateResource.Cache
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.dll
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.pdb
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.FormNotificationText.resources
+C:\Users\Filipsi\Documents\GitHub\Notify\Notify\Notify\obj\Debug\Notify.FormNoticifationProgressBar.resources

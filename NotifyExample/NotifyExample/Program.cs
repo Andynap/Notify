@@ -28,9 +28,9 @@ namespace NotifyExample {
             "Adjusting data for your IQ",
             "Generating next funny line",
             "Dividing eternity by zero",
-            "Searching for the Any key"
-            "Feeding Vüjta"
-            "Getting rid of Zdenda"
+            "Searching for the Any key",
+            "Feeding Vüjta",
+            "Getting rid of Zdenda",
             "Blaming Višinka"
         };
 

@@ -31,7 +31,15 @@ namespace NotifyExample {
             "Searching for the Any key",
             "Feeding Vüjta",
             "Getting rid of Zdenda",
-            "Blaming Višinka"
+            "Blaming Višinka",
+            "Asking questons",
+            "Mathing math",
+            "Calculating space time interfence",
+            "Eating cookies",
+            "Preparing deminsions scissors",
+            "Predicating your IQ",
+            "Refeiling fuel tank",
+            "Painting your mother"
         };
 
         private static string getRandomPhrase() {

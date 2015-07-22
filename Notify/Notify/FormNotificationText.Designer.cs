@@ -74,6 +74,7 @@
             this.Name = "FormNotificationText";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.FormNotification_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormNotification_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.boxExit)).EndInit();

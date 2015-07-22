@@ -70,6 +70,7 @@
             this.Name = "FormNoticifationProgressBar";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.TopMost = true;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormNoticifationProgressBar_Paint);
             this.ResumeLayout(false);
 

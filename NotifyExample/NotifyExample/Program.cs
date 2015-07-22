@@ -36,9 +36,11 @@ namespace NotifyExample {
 
         private static string getRandomPhrase() {
             int index;
+
             do {
                 index = rand.Next(0, loadingPhrases.Length - 1);
             } while(loadingPhrasesShowed.Contains(index));
+
             loadingPhrasesShowed.Add(index);
             return loadingPhrases[index];
         }
@@ -75,7 +77,6 @@ namespace NotifyExample {
                     notifyBar.progressBarProcentage += rand.Next(5, 15);
                 };
                 notifyBar.progressBarProcentage = 1;
-                
             };
 
             Application.EnableVisualStyles();
